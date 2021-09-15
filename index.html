@@ -17,6 +17,10 @@
       href="https://fonts.googleapis.com/css2?family=Raleway:wght@400;500;600;700&display=swap"
       rel="stylesheet"
     />
+    <script
+      src="https://kit.fontawesome.com/7378e161a6.js"
+      crossorigin="anonymous"
+    ></script>
     <link href="assets/styles/normalize.css" rel="stylesheet" />
     <link href="assets/styles/style.css" rel="stylesheet" />
   </head>
@@ -38,6 +42,81 @@
         </ul>
       </nav>
     </header>
+
+    <section class="filters-section">
+      <div class="wrapper">
+        <h1>Trouvez votre hébergement pour des vacances de rêve</h1>
+        <p class="filters-section__description">
+          En plein centre ville ou en pleine nature
+        </p>
+
+        <form class="filters-section__search" action="">
+          <div class="filters-section__search-icon">
+            <i class="fas fa-map-marker-alt"></i>
+          </div>
+          <label for="location-search">Search Google:</label>
+          <input
+            type="search"
+            id="location-search"
+            name="location-search"
+            placeholder="Marseille, France"
+          />
+          <button type="submit"><i class="fas fa-search"></i></button>
+        </form>
+
+        <div class="filters-section__filters">
+          <p>Filtres</p>
+          <ul class="filters-section__filters-items">
+            <li class="filters-section__filters-item">
+              <a href="">
+                <span class="filters-section__filters-item-bg">
+                  <span class="filters-section__filters-item-icon">
+                    <i class="fas fa-money-bill-wave"></i>
+                  </span>
+                </span>
+                <span>Économique</span>
+              </a>
+            </li>
+            <li class="filters-section__filters-item">
+              <a href="">
+                <span class="filters-section__filters-item-bg">
+                  <span class="filters-section__filters-item-icon">
+                    <i class="fas fa-child"></i>
+                  </span>
+                </span>
+                <span>Familial</span>
+              </a>
+            </li>
+            <li class="filters-section__filters-item">
+              <a href="">
+                <span class="filters-section__filters-item-bg">
+                  <span class="filters-section__filters-item-icon">
+                    <i class="fas fa-heart"></i>
+                  </span>
+                </span>
+                <span>Romantique</span>
+              </a>
+            </li>
+            <li class="filters-section__filters-item">
+              <a href="">
+                <span class="filters-section__filters-item-bg">
+                  <span class="filters-section__filters-item-icon">
+                    <i class="fas fa-dog"></i>
+                  </span>
+                </span>
+                <span>Animaux autorisés</span>
+              </a>
+            </li>
+          </ul>
+        </div>
+        <div class="filters-section__info">
+          <span class="filters-section__info-icon">
+            <i class="fas fa-info"></i>
+          </span>
+          <p>Plus de 500 logements sont disponibles dans cette ville</p>
+        </div>
+      </div>
+    </section>
 
     <footer>
       <div class="wrapper">
