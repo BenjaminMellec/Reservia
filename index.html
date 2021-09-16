@@ -43,15 +43,15 @@
       </nav>
     </header>
 
-    <section class="filters-section">
+    <section class="filters">
       <div class="wrapper">
         <h1>Trouvez votre hébergement pour des vacances de rêve</h1>
-        <p class="filters-section__description">
+        <p class="filters__description">
           En plein centre ville ou en pleine nature
         </p>
 
-        <form class="filters-section__search" action="">
-          <div class="filters-section__search-icon">
+        <form class="filters__search" action="">
+          <div class="filters__search-icon">
             <i class="fas fa-map-marker-alt"></i>
           </div>
           <label for="location-search">Search Google:</label>
@@ -64,43 +64,43 @@
           <button type="submit"><i class="fas fa-search"></i></button>
         </form>
 
-        <div class="filters-section__filters">
+        <div class="filters__filters">
           <p>Filtres</p>
-          <ul class="filters-section__filters-items">
-            <li class="filters-section__filters-item">
+          <ul class="filters__filters-items">
+            <li class="filters__filters-item">
               <a href="">
-                <span class="filters-section__filters-item-bg">
-                  <span class="filters-section__filters-item-icon">
+                <span class="filters__filters-item-bg">
+                  <span class="filters__filters-item-icon">
                     <i class="fas fa-money-bill-wave"></i>
                   </span>
                 </span>
                 <span>Économique</span>
               </a>
             </li>
-            <li class="filters-section__filters-item">
+            <li class="filters__filters-item">
               <a href="">
-                <span class="filters-section__filters-item-bg">
-                  <span class="filters-section__filters-item-icon">
+                <span class="filters__filters-item-bg">
+                  <span class="filters__filters-item-icon">
                     <i class="fas fa-child"></i>
                   </span>
                 </span>
                 <span>Familial</span>
               </a>
             </li>
-            <li class="filters-section__filters-item">
+            <li class="filters__filters-item">
               <a href="">
-                <span class="filters-section__filters-item-bg">
-                  <span class="filters-section__filters-item-icon">
+                <span class="filters__filters-item-bg">
+                  <span class="filters__filters-item-icon">
                     <i class="fas fa-heart"></i>
                   </span>
                 </span>
                 <span>Romantique</span>
               </a>
             </li>
-            <li class="filters-section__filters-item">
+            <li class="filters__filters-item">
               <a href="">
-                <span class="filters-section__filters-item-bg">
-                  <span class="filters-section__filters-item-icon">
+                <span class="filters__filters-item-bg">
+                  <span class="filters__filters-item-icon">
                     <i class="fas fa-dog"></i>
                   </span>
                 </span>
@@ -109,12 +109,93 @@
             </li>
           </ul>
         </div>
-        <div class="filters-section__info">
-          <span class="filters-section__info-icon">
+        <div class="filters__info">
+          <span class="filters__info-icon">
             <i class="fas fa-info"></i>
           </span>
           <p>Plus de 500 logements sont disponibles dans cette ville</p>
         </div>
+      </div>
+    </section>
+
+    <section class="popular">
+      <div class="wrapper">
+        <h2>
+          <span>Les plus populaires</span>
+          <span><i class="fas fa-chart-line"></i></span>
+        </h2>
+
+        <ul class="row">
+          <li class="col-12">
+            <a class="card card--horizontal" href="">
+              <div class="card__image card__image--horizontal">
+                <img
+                  src="./assets/images/small/emile-guillemot-Bj_rcSC5XfE-unsplash.jpg"
+                  alt=""
+                />
+              </div>
+              <div class="card__content">
+                <div>
+                  <h3>Hôtel Le soleil du matin</h3>
+                  <p>Nuit à partir de 128€</p>
+                </div>
+                <div class="card__rate">
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                </div>
+              </div>
+            </a>
+          </li>
+          <li class="col-12">
+            <a class="card card--horizontal" href="">
+              <div class="card__image card__image--horizontal">
+                <img
+                  src="./assets/images/small/aw-creative-VGs8z60yT2c-unsplash.jpg"
+                  alt=""
+                />
+              </div>
+              <div class="card__content">
+                <div>
+                  <h3>Au coeur de l'eau Chambres d'hôtes</h3>
+                  <p>Nuit à partir de 71€</p>
+                </div>
+                <div class="card__rate">
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star fa-star--grey"></i>
+                </div>
+              </div>
+            </a>
+          </li>
+          <li class="col-12">
+            <a class="card card--horizontal" href="">
+              <div class="card__image card__image--vertical">
+                <img
+                  src="./assets/images/small/febrian-zakaria-sjvU0THccQA-unsplash.jpg"
+                  alt=""
+                />
+              </div>
+              <div class="card__content">
+                <div>
+                  <h3>Hôtel Tout bleu et blanc</h3>
+                  <p>Nuit à partir de 68€</p>
+                </div>
+                <div class="card__rate">
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star fa-star--grey"></i>
+                </div>
+              </div>
+            </a>
+          </li>
+        </ul>
       </div>
     </section>
 
