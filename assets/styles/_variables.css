@@ -1,0 +1,13 @@
+/* Variables */
+:root {
+  --blue: #0065fc;
+  --blue-light: #deebff;
+  --grey: #f2f2f2;
+  --grey-dark: #d9d9d9;
+  --black: black;
+  --white: white;
+
+  --tablet: 768px;
+  --laptop: 992px;
+  --desktop: 1200px;
+}
