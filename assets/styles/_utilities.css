@@ -8,9 +8,14 @@
 .row {
   display: flex;
   flex-wrap: wrap;
+  margin: 0 -10px;
 }
 .col-12 {
   width: 100%;
+}
+.col-12,
+.col-tablet-4 {
+  padding: 0 10px;
 }
 
 /* Card component */
@@ -82,6 +87,16 @@
 }
 .card__rate .fa-star--grey {
   color: var(--grey-dark);
+}
+
+@media (min-width: 768px) {
+  .wrapper {
+    padding: 0 50px;
+  }
+
+  .col-tablet-4 {
+    width: 33.333%;
+  }
 }
 
 @media (min-width: 992px) {
