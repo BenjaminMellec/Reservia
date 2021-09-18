@@ -1,5 +1,7 @@
 .wrapper {
   padding: 0 20px;
+  max-width: 1920px;
+  margin: auto;
 }
 
 /* Flex grid */
@@ -80,4 +82,10 @@
 }
 .card__rate .fa-star--grey {
   color: var(--grey-dark);
+}
+
+@media (min-width: 992px) {
+  .wrapper {
+    padding: 0 50px;
+  }
 }
