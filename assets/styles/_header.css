@@ -15,7 +15,7 @@
 .header__logo-signup,
 .header__nav-signup {
   color: var(--blue);
-  font-weight: 700;
+  font-weight: 600;
   text-decoration: none;
 }
 .header__nav {
@@ -48,20 +48,26 @@
     justify-content: space-between;
   }
   .header__logo {
-    padding: 50px 0 50px 50px;
+    padding: 45px 0 40px 50px;
   }
   .header__logo-signup {
     display: none;
+  }
+  .header__nav {
+    padding-right: 40px;
   }
   .header__nav li:nth-child(3) {
     display: block;
   }
   .header__nav li a {
-    padding: 45px 30px;
+    padding: 45px 35px;
   }
   .header__nav li a.active {
     border-top: 3px solid var(--blue);
     border-bottom: 0;
+  }
+  .header__nav li a {
+    border-top: 3px solid transparent;
   }
   .header__nav li a:not(.active) {
     border-bottom: 0;

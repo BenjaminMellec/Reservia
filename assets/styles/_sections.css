@@ -6,9 +6,6 @@
 .filters h1 {
   margin-bottom: 15px;
 }
-.filters h1 {
-  margin-bottom: 15px;
-}
 .filters__description {
   margin-bottom: 35px;
 }
@@ -51,6 +48,10 @@
   border-radius: 15px;
   outline: none;
 }
+.filters__search input[type="search"]::placeholder {
+  color: var(--black);
+  opacity: 1;
+}
 .filters__search button {
   right: 0;
   color: var(--white);
@@ -58,6 +59,9 @@
   border-radius: 15px;
   font-size: 17px;
   cursor: pointer;
+}
+.filters__search button span {
+  display: none;
 }
 .filters__filters > p {
   margin-bottom: 15px;
@@ -125,6 +129,49 @@
   font-size: 11px;
   color: var(--blue);
   border: 1px solid var(--grey-dark);
+}
+@media (min-width: 768px) {
+  .filters h1 {
+    margin-bottom: 10px;
+  }
+  .filters__description {
+    margin-bottom: 20px;
+  }
+  .filters__search {
+    max-width: 420px;
+  }
+  .filters__search button {
+    width: auto;
+    padding: 0 18px;
+    border-top-left-radius: 0;
+    border-bottom-left-radius: 0;
+  }
+  .filters__search button span {
+    display: block;
+    font-weight: 500;
+  }
+  .filters__search button i {
+    display: none;
+  }
+}
+@media (min-width: 992px) {
+  .filters {
+    padding: 0 0 35px 0;
+  }
+  .filters__filters {
+    display: flex;
+    align-items: center;
+    margin-bottom: 23px;
+  }
+  .filters__filters > p {
+    margin: 0 30px 12px 0;
+  }
+  .filters__filters-items {
+    margin-bottom: 0;
+  }
+  .filters__filters-item {
+    margin: 0 25px 12px 0;
+  }
 }
 
 /* Popular section */

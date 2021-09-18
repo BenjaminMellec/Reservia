@@ -91,7 +91,7 @@
 
 @media (min-width: 768px) {
   .wrapper {
-    padding: 0 50px;
+    padding: 0 56px;
   }
 
   .col-tablet-4 {
@@ -100,7 +100,7 @@
 }
 
 @media (min-width: 992px) {
-  .wrapper {
+  /* .wrapper {
     padding: 0 50px;
-  }
+  } */
 }
