@@ -182,7 +182,7 @@
 
 /* Popular section */
 .popular {
-  padding: 40px 0 30px 0;
+  padding: 40px 20px 30px 20px;
   background-color: var(--grey);
 }
 .popular h2 {
@@ -196,6 +196,38 @@
 }
 .popular li {
   margin-bottom: 10px;
+}
+@media (min-width: 576px) {
+  .popular .card--horizontal {
+    flex-direction: column;
+  }
+  .popular .card--horizontal .card__image {
+    margin-right: 0;
+    height: 115px;
+    width: 100%;
+    border-top-right-radius: 15px;
+    border-bottom-left-radius: 0px;
+  }
+  .popular .card--horizontal .card__image--horizontal img {
+    width: 100%;
+    height: auto;
+    min-height: 100%;
+  }
+}
+@media (min-width: 768px) {
+  .popular {
+    padding: 40px 56px 30px 56px;
+  }
+}
+@media (min-width: 992px) {
+  .popular {
+    padding: 40px 40px 30px 40px;
+  }
+}
+@media (min-width: 1400px) {
+  .popular {
+    padding: 40px 40px 30px 40px;
+  }
 }
 
 /* Lodgings section*/
