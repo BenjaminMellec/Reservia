@@ -130,6 +130,9 @@
   color: var(--blue);
   border: 1px solid var(--grey-dark);
 }
+.filters__info p {
+  line-height: 25px;
+}
 @media (min-width: 768px) {
   .filters h1 {
     margin-bottom: 10px;
@@ -172,6 +175,9 @@
   .filters__filters-item {
     margin: 0 25px 12px 0;
   }
+  .filters__filters-item span {
+    font-size: 18px;
+  }
 }
 
 /* Popular section */
@@ -188,10 +194,13 @@
 .popular h2 span:first-child {
   padding-right: 10px;
 }
+.popular li {
+  margin-bottom: 10px;
+}
 
 /* Lodgings section*/
 .lodgings {
-  padding: 42px 0 30px 0;
+  padding: 40px 20px 30px 20px;
   background-color: var(--white);
 }
 .lodgings h2 {
@@ -200,10 +209,42 @@
 .lodgings button {
   margin-top: 20px;
   border: 0;
-  background-color: var(--white);
+  background-color: transparent;
   font-size: 18px;
   font-weight: 700;
   cursor: pointer;
+}
+.lodgings li {
+  margin-bottom: 15px;
+}
+@media (min-width: 576px) {
+  .lodgings li {
+    margin-bottom: 20px;
+  }
+}
+@media (min-width: 768px) {
+  .lodgings {
+    padding: 40px 56px 30px 56px;
+  }
+}
+@media (min-width: 992px) {
+  .lodgings {
+    padding: 40px 40px 30px 40px;
+  }
+}
+@media (min-width: 1400px) {
+  .lodgings li {
+    margin-bottom: 30px;
+  }
+  .lodgings button {
+    margin-top: 10px;
+  }
+  .lodgings .row {
+    margin: 0 -15px;
+  }
+  .lodgings .col-large-4 {
+    padding: 0 15px;
+  }
 }
 
 /* Activities section */
