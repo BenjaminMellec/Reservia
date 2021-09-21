@@ -1,10 +1,10 @@
-@import "assets/styles/_normalize.css";
+@import "styles/_normalize.css";
 
-@import "assets/styles/_variables.css";
-@import "assets/styles/_layout.css";
-@import "assets/styles/_grid.css";
-@import "assets/styles/_utilities.css";
+@import "styles/_variables.css";
+@import "styles/_layout.css";
+@import "styles/_grid.css";
+@import "styles/_utilities.css";
 
-@import "assets/styles/_header.css";
-@import "assets/styles/_sections.css";
-@import "assets/styles/_footer.css";
+@import "styles/_header.css";
+@import "styles/_sections.css";
+@import "styles/_footer.css";
