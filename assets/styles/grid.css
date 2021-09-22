@@ -11,9 +11,11 @@
 .col-hands-4,
 .col-hands-6,
 .col-tablet-4,
+.col-laptop-4,
 .col-laptop-6,
 .col-laptop-12,
 .col-desktop-4,
+.col-large-3,
 .col-large-4 {
   padding: 0 10px;
 }
@@ -34,6 +36,9 @@
 }
 
 @media (min-width: 992px) {
+  .col-laptop-4 {
+    width: 33.333%;
+  }
   .col-laptop-6 {
     width: 50%;
   }
@@ -49,6 +54,9 @@
 }
 
 @media (min-width: 1400px) {
+  .col-large-3 {
+    width: 25%;
+  }
   .col-large-4 {
     width: 33.333%;
   }

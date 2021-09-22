@@ -29,7 +29,6 @@
   display: inline-block;
   width: 100%;
   padding: 14px;
-  transition: 0.2s;
 }
 .header__nav li a:hover {
   opacity: 0.7;
