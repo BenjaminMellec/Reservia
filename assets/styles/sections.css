@@ -148,6 +148,7 @@
     padding: 0 18px;
     border-top-left-radius: 0;
     border-bottom-left-radius: 0;
+    transition: 0.2s;
   }
   .filters__search button span {
     display: block;
@@ -177,6 +178,9 @@
   }
   .filters__filters-item span {
     font-size: 18px;
+  }
+  .filters__search button:hover {
+    opacity: 0.9;
   }
 }
 
