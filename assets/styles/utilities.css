@@ -12,6 +12,11 @@
   border: 5px solid var(--white);
   border-radius: 20px;
   box-shadow: 0 5px 20px rgba(0, 0, 0, 0.1);
+  transition: 0.2s;
+}
+.card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 5px 20px rgba(0, 0, 0, 0.2);
 }
 .card--vertical {
   flex-direction: column;
@@ -22,8 +27,8 @@
   margin-right: 0;
   border-top-right-radius: 15px;
 }
-.card--vertical .card__content {
-  padding-left: 10px;
+.card--horizontal .card__content {
+  padding-left: 0;
 }
 .card--horizontal .card__image {
   border-bottom-left-radius: 15px;
@@ -55,7 +60,7 @@
 }
 .card__content {
   display: flex;
-  padding: 10px 0;
+  padding: 10px;
   flex-direction: column;
   width: auto;
   justify-content: space-between;
@@ -92,12 +97,6 @@
   }
   .sections-container section {
     background-color: var(--grey);
-    border-radius: 40px;
-  }
-  .sections-container section:first-child {
-    margin-left: 20px;
-  }
-  .sections-container section:last-child {
-    margin-right: 20px;
+    border-radius: 20px;
   }
 }

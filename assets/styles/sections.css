@@ -213,6 +213,9 @@
     height: auto;
     min-height: 100%;
   }
+  .popular .card--horizontal .card__content {
+    padding: 10px;
+  }
 }
 @media (min-width: 768px) {
   .popular {
@@ -221,12 +224,37 @@
 }
 @media (min-width: 992px) {
   .popular {
+    width: 32%;
     padding: 40px 40px 30px 40px;
+  }
+  .popular li {
+    margin-bottom: 20px;
   }
 }
 @media (min-width: 1400px) {
   .popular {
-    padding: 40px 40px 30px 40px;
+    padding: 40px 40px 0 40px;
+  }
+  .popular li {
+    margin-bottom: 30px;
+  }
+  .popular .card--horizontal {
+    flex-direction: row;
+  }
+  .popular .card--horizontal .card__image {
+    margin-right: 20px;
+    width: 126px;
+    min-height: 135px;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 0;
+    border-bottom-left-radius: 15px;
+  }
+  .popular .card--horizontal .card__image--horizontal img {
+    width: auto;
+    height: 100%;
+  }
+  .popular .card--horizontal .card__content {
+    padding: 10px;
   }
 }
 
@@ -261,7 +289,12 @@
 }
 @media (min-width: 992px) {
   .lodgings {
-    padding: 40px 40px 30px 40px;
+    width: 68%;
+    margin-right: 40px;
+    padding: 40px;
+  }
+  .lodgings h2 {
+    margin-bottom: 28px;
   }
 }
 @media (min-width: 1400px) {
