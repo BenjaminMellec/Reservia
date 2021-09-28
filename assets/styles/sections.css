@@ -108,7 +108,8 @@
   height: 50px;
   border-radius: 50px;
 }
-.filters__filters-item a:hover .filters__filters-item-bg {
+.filters__filters-item a:focus .filters__filters-item-bg,
+.filters__filters-item a:active .filters__filters-item-bg {
   width: calc(100% + 4px);
 }
 .filters__filters-item span:last-child {
@@ -181,6 +182,9 @@
   }
   .filters__search button:hover {
     opacity: 0.9;
+  }
+  .filters__filters-item a:hover .filters__filters-item-bg {
+    width: calc(100% + 4px);
   }
 }
 
